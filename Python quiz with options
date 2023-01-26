@@ -1,0 +1,105 @@
+q1 = """How many times has India won the Cricket World Cup?  "
+a = "4"
+b = "3"
+c= "2"
+d= "1"""
+
+q2 = """Which Indian cartoonist was the creator of characters like Chacha Chaudhary and Pinki??"
+a = "R K Laxman"
+b = "Pran"
+c= "Satish Acharya"
+d= "Anant Pi"""
+
+q3 = """in Kuch Kuch Hota Hai, what was Rahul's surname?"
+a = "Mehra"
+b = "Malhotra"
+c= "Mathur"
+d= "khanna"""
+
+q4 = """What is the purpose of a semi colon? "
+a = "to show that you are connecting one thought to another that is simillar without a period"
+b = "to show that the a sentence with a comma sound like a full sentence but it is incomplete"
+c= "to show that a thought has ended"
+d= "it sounds cool"""
+
+q5 = """Mia goes to the store and buys pizza for lunch?"
+a = "there is no captial on pizza"
+b = "she should not buy pizza for lunch"
+c= "there should not be a question mark,"
+d= "its correct"""
+
+q6 = """what is a hyperbole?"
+a = "an over-exaggeration"
+b = "to represent a sound"
+c= "to show that its true"
+d= "none"""
+
+q7 = """what is 20% of 54?"
+a = "10.8"
+b = "2.6"
+c= "27.1"
+d= "8.01"""
+
+q8 = """-7 -4?"
+a = "-11"
+b = "11"
+c= "-3"
+d= "3"""
+
+q9 = """what is 3^3 -2?"
+a = "25"
+b = "-25"
+c= "1"
+d= "-1"""
+
+q10 = """ What powers the water cycle?"
+a = "moon"
+b = "water"
+c= "sun"
+d= "land"""
+
+q11 = """  how many earths can fit the sun?"
+a = "100"
+b = "10"
+c= "1000"
+d= "10000"""
+
+q12 = """ dose vineger dissolve in water?"
+a = "yes"
+b = "no"
+c= "sometimes"
+d= "diffrent kinds"""
+questions = { q1:"c" , q2:"b" , q3:"d" , q4:"a" , q5:"c", q6:"a", q7:"a",q8:"a",q9:"a",q10:"c",q11:"c",q12:"b"}
+
+name = input("hi whats your name ")
+input("hello would you like to play "+name ,)
+score=0
+for i in questions:
+  print(i)
+  ans = input('enter the answer(a/b/c/d) ')
+  if ans==questions[i]:
+    
+    print('you have gotten it correct you have 1 point')
+    score=score+1
+    print('curent score',score)
+  else:
+    
+    print("no incorrect you have lost one point.")
+    score=score-1
+    print('curent score',score)
+print('final score is', score)
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
